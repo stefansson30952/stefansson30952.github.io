@@ -7,7 +7,7 @@
 .navigation a {
   padding: 10px;
   margin: 100px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .navigation a:hover {
@@ -15,12 +15,14 @@
 
 .Intro {
     text-align: center;
-    color: white;
+    color: black;
 }
 header {
-  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2185&q=80);
   height: 800px;
   width: 100%;
+  margin: 0;
+  background-position: center;
 }
 h1{
     font-size: 32px;
@@ -63,4 +65,8 @@ span {
   margin: 0 auto;
   padding: 40px;
   width: 60%;
+}
+
+body {
+  margin: 0px;
 }
