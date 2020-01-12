@@ -1,7 +1,16 @@
-nav {
+.navigation {
     text-align: center;
     color: black;
     font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation a {
+  padding: 10px;
+  margin: 100px;
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover {
 }
 
 .Intro {
@@ -9,12 +18,49 @@ nav {
     color: white;
 }
 header {
-  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/25587960_1253916908074639_5279123328258001619_o.jpg?_nc_cat=102&_nc_ohc=l_MTJpOnsocAQkDqsIHYjogAksRjc4-CDHOaBDmPyB5THGM0KzDlWeJRg&_nc_ht=scontent-sea1-1.xx&oh=5f84fe940f0cc19939227ee1cb76223e&oe=5EA362D2");
-  height: 832px;
+  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 800px;
+  width: 100%;
 }
 h1{
     font-size: 32px;
 }
 h2 {
     font-size: 28px;
+    text-align: center
+}
+.ex_img{
+  display: inline;
+  width: 25%;
+  height: 25%;
+  margin-bottom: 50px;
+}
+.sailbot_img{
+  display: inline;
+  width: 25%;
+  height: 35%;
+  margin-bottom: 50px;
+}
+.ubc_img {
+  display: inline;
+  width: 25%;
+  height: 30%;
+  margin-bottom: 50px;
+  border-radius: 10%;
+}
+span {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.contact_img {
+    margin-right: 100px;
+    width: 110px;
+    height: 110px;
+    display: inline;
+}
+.main {
+  margin: 0 auto;
+  padding: 40px;
+  width: 60%;
 }

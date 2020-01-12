@@ -7,12 +7,13 @@
     </title>
   </head>
   <body>
-    <nav>
+    <header>
+    <nav class="navigation">
       <a href="#About">About</a>
       <a href="#Experiences">Experiences</a>
       <a href="#Contact">Contact</a>
     </nav>
-    <header>
+    
       <h2 class="Intro">
         <em>
           Hey, I'm
@@ -22,7 +23,8 @@
        ----- Matthew Stefansson ----
       </h1>
     </header>
-    <div id="About">
+
+    <div id="About" class="main">
       <h2>
         About Me
       </h2>
@@ -30,55 +32,54 @@
         I am a second year computer engineering student at University of British Columbia (UBC). I am constantly programming and always eager to learn more.
         I love working in a team as you get to learn 
         from different perspectives, and come to a solution much faster. This year I am looking for a Co-op four month postion starting in May 2020.
-        I am interested working in any field related in computer engineering.
+        I am interested working in any field related in computer engineering. Some of my skills Java, Verilog, HTML, CSS, and I am currently working on learning C++.
       </p>
 
     </div>
 
-    <section id="Experiences">
+    <section id="Experiences" class="main">
       <h2>
         --- Experiences ---
       </h2>
 
       <figure id="Sailbot">
-        <img src="https://images.squarespace-cdn.com/content/v1/5c9045059b8fe860dc012489/1572271311360-GYGXZ57KYYCK3OHUCGSQ/ke17ZwdGBToddI8pDm48kD4jEsJuBKtdR7kfd5pV4g4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JUFePfWJMN6sGbG0cT15q6VFxY4NBluO1jTZ6qjLr30KMshLAGzx4R3EDFOm1kBS/Sailbot+Logo+New.png?format=750w" style="width:50%;height:50%;">
-        <figcaption>
+        <img src="https://images.squarespace-cdn.com/content/v1/5c9045059b8fe860dc012489/1572271311360-GYGXZ57KYYCK3OHUCGSQ/ke17ZwdGBToddI8pDm48kD4jEsJuBKtdR7kfd5pV4g4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JUFePfWJMN6sGbG0cT15q6VFxY4NBluO1jTZ6qjLr30KMshLAGzx4R3EDFOm1kBS/Sailbot+Logo+New.png?format=750w" class="sailbot_img">
+        <span>
           Explain Sailbot
           <br>
           <a href="https://www.ubcsailbot.org/" target="_blank">To learn more about Sailbot click here</a>
-        </figcaption>
+        </span>
       </figure>
+
       
       <figure id="MP3">
-        <img src="http://euromaidanpress.com/wp-content/uploads/2014/07/121513-1.png" style="width:50%; height:50%;">
-        <figcaption>
+        <img src="http://euromaidanpress.com/wp-content/uploads/2014/07/121513-1.png" class="ex_img">
+        <span>
           Describe MP3
-          <br>
           <a href="https://github.com/CPEN-221-2019/f19--mp3-briellelaw-stefansson30952" target="_blank">
             View code need to ask for premission
           </a>
-        </figcaption>
+        </span>
       </figure>
 
       <figure id="MP2">
       </figure>
 
       <figure id="CPU for Tors class">
-
       </figure>
 
       <figure>
-        <img src="https://news.ubc.ca/wp-content/uploads/2018/06/UBC-aerial.jpg" style="width: 50%; height: 75%;">
-        <figcaption>
+        <img src="https://brand.ubc.ca/files/2016/05/DownloadsAssets_Button01_Logos_768.jpg" class="ubc_img">
+        <span>
           Explain my time at UBC
-        </figcaption>
+        </span>
       </figure>
 
       <figure id="Robotics">
-        <img src="./Robotics_Photo.jpg" style="width: 50% ; height: 50% ;">
-        <figcaption>
+        <img src="./Robotics_Photo.jpg" class="ex_img">
+        <span>
           Describe FRC
-        </figcaption>
+        </span>
       </figure>
 
 
@@ -87,10 +88,20 @@
     </section>
 
     <footer id="Contact">
-      <a href="./Resume.docx">Resume</a>
-      <a href="https://github.com/stefansson30952?tab=repositories" target="_blank">Github</a>
-      <a href="https://www.linkedin.com/in/matthew-stefansson-187046176/" target="_blank">Linkdin</a>
-      <a href="mailto:stefansson30952@gmail.com">Email</a>
+      <h1>Contact</h1>
+      
+      <p>If you like what you see you can download my <a href="./Resume.docx">Resume</a> and look at my work on github. You can contact me on linkdin or email. </p>
+      <a href="https://github.com/stefansson30952?tab=repositories" target="_blank" class=contact_img>
+        <img src="https://cdn.tutsplus.com/net/uploads/2013/08/github-collab-retina-preview.gif">
+      </a>
+
+      <a href="https://www.linkedin.com/in/matthew-stefansson-187046176/" target="_blank" class=contact_img>
+        <img src="http://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg">
+      </a>
+
+      <a href="mailto:stefansson30952@gmail.com" class=contact_img>
+        <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-4d20b93e255eb723bfe484856424a515-gmail.png">
+      </a>
     </footer>
   </body>
 
