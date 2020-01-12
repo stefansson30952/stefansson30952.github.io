@@ -1,8 +1,14 @@
 .Intro {
     text-align: center;
+    color: white;
 }
 header {
   background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/25587960_1253916908074639_5279123328258001619_o.jpg?_nc_cat=102&_nc_ohc=l_MTJpOnsocAQkDqsIHYjogAksRjc4-CDHOaBDmPyB5THGM0KzDlWeJRg&_nc_ht=scontent-sea1-1.xx&oh=5f84fe940f0cc19939227ee1cb76223e&oe=5EA362D2");
   height: 832px;
-  width: 1000;
+}
+h1{
+    font-size: 18px;
+}
+h2 {
+    font-size: 15px;
 }
