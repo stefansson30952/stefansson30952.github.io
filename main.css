@@ -21,11 +21,11 @@
 .Intro {
     text-align: center;
     color: black;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    clear: both;
+    clear: none;
 }
 header {
   background-image: url(https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2185&q=80);
