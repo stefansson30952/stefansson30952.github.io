@@ -5,8 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .navigation a {
-  padding: 10px;
-  margin: 100px;
+  margin-right: 10%;
+  color: black;
+  text-decoration: none;
+}
+.about {
+  margin-left: 10%;
+  margin-right: 10%;
   color: black;
   text-decoration: none;
 }
@@ -23,6 +28,8 @@ header {
   width: 100%;
   margin: 0;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
     font-size: 60px;
@@ -92,12 +99,25 @@ span {
   margin: 0 auto;
   padding: 40px;
   width: 60%;
+  background-color: #F3EFE0;
 }
 
 body {
   margin: 0px;
+  background-color: #F3EFE0;
 }
 br {
    display: block;
    margin: 10px 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
