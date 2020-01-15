@@ -81,7 +81,7 @@ p {
 }
 span {
   display: inline-block;
-  width: 70%;
+  width: 65%;
   vertical-align: top;
 }
 .github_img {
@@ -127,4 +127,8 @@ figure {
 }
   .contact {
       text-align: center;
+  }
+
+  .about {
+    width: 95%;
   }
